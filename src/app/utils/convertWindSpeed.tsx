@@ -1,4 +1,4 @@
 export function convertWindSpeed(speedInMetersPerSecond: number): string {
-    const speedInKilometersPerHour = speedInMetersPerSecond * 3.6;
-    return `${speedInKilometersPerHour.toFixed(0)}km/h`;
+    const speedInMilesPerHour = speedInMetersPerSecond *  2.237;
+    return `${speedInMilesPerHour.toFixed(0)}mph`;
 }
